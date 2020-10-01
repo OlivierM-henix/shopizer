@@ -196,6 +196,11 @@
 	</modules>
 
 	<repositories>
+		<!-- Maven proxy repo -->
+   		 <repository>
+    		  <id>shopizer_maven2_proxy_repo</id>
+    		  <url>http://77.153.190.74:8081/repository/shopizer_maven2_proxy_repo/</url>
+   		 </repository>
 		<!-- Sonatype snapshot repo -->
 		<repository>
 			<id>oss-sonatype</id>
