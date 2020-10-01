@@ -23,7 +23,7 @@
 		<jwt.version>0.8.0</jwt.version>
 		<!-- Need to use the latest milestone in order to logon with latest FB 
 			app version -->
-		<spring-social-facebook.version>3.0.0.M3</spring-social-facebook.version>
+		<spring-social-facebook.version>2.0.3.RELEASE</spring-social-facebook.version>
 		<guava.version>20.0</guava.version>
 		<coverage.lines>.04</coverage.lines>
         <coverage.branches>.01</coverage.branches>
@@ -133,11 +133,6 @@
 		<dependency>
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-web</artifactId>
-		</dependency>
-		<dependency>
-    			<groupId>org.springframework.social</groupId>
-   			 <artifactId>spring-social-facebook</artifactId>
-   			 <version>3.0.0.M3</version>
 		</dependency>
 
 		
