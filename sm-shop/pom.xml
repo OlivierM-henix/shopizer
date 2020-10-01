@@ -134,6 +134,11 @@
 			<groupId>org.springframework.social</groupId>
 			<artifactId>spring-social-web</artifactId>
 		</dependency>
+		<dependency>
+    			<groupId>org.springframework.social</groupId>
+   			 <artifactId>spring-social-facebook</artifactId>
+   			 <version>3.0.0.M3</version>
+		</dependency>
 
 		
 		<!-- Enables login with facebook, for now it is using milestone -->
